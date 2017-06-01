@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model.Model
 {
-    class TimeModel
+    public class TimeModel
     {
         public long timeID { get; set; }
         public string timeNome { get; set; }
