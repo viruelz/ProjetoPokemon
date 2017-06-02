@@ -406,19 +406,12 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\Api\PokemonModelController.cs" />
-    <Compile Include="Controllers\Api\TimeModelController.cs" />
-    <Compile Include="Controllers\Api\UsuarioModelController.cs" />
     <Compile Include="Controllers\PokemonModelController.cs" />
     <Compile Include="Controllers\TimeModelController.cs" />
     <Compile Include="Controllers\UsuarioModelController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\APIModel.cs" />
-    <Compile Include="Models\PokemonModel.cs" />
-    <Compile Include="Models\TimeModel.cs" />
-    <Compile Include="Models\UsuarioModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -441,6 +434,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
     <Folder Include="Views\PokemonModel\" />
     <Folder Include="Views\TimeModel\" />
   </ItemGroup>
